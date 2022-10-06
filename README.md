@@ -104,7 +104,7 @@ If you are using **`TcpNETClient`**, an optional parameter is included in the co
 3 events are exposed on the **`ITcpNETClient`** interface: `MessageEvent`, `ConnectionEvent`, and `ErrorEvent`. These event signatures are below:
 
 ``` c#
-    client.MessageEvent += OMessageEvent;
+    client.MessageEvent += OnMessageEvent;
     client.ConnectionEvent += OnConnectionEvent;
     client.ErrorEvent += OnErrorEvent
 ```
